@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/shayutut/nisayon#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "sha256": "^0.2.0",
+    "web-push": "^3.3.2"
   }
 }
