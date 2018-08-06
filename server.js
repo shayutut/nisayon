@@ -61,7 +61,8 @@ app.get('/allEvents', (req, res) => {
 });
 app.post('/getEventsByUser', (req, res) => {
     let user = req.body;
-    DAL.getEventsByUser(user, (result) => {
+    console.log(user.name);
+      DAL.getEventsByUser(user, (result) => {
         res.send(result);
     })
 
